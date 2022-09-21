@@ -7,7 +7,7 @@ import styles from './styles/App.module.css';
 
 function App() {
 
-  const count = useSelector((state: RootState) => state.counter.value)
+  const count = useSelector((state: RootState) => state.counter.value)!
   const dispatch = useDispatch()
 
   return (

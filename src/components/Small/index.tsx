@@ -5,7 +5,7 @@ import styles from '../../styles/Boxs.module.css'
 
 function Small() {
 
-  const count = useSelector((state: RootState) => state.counter.value)
+  const count = useSelector((state: RootState) => state.counter.value)!
 
   return (
     <>
